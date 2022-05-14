@@ -3,6 +3,7 @@
   "workbench.colorTheme": "Material Theme High Contrast",
   "editor.tabSize": 2,
   "editor.fontSize": 14,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "search.useIgnoreFiles": false,
   "workbench.productIconTheme": "icons-carbon",
   "customizeUI.activityBar": "bottom",
@@ -40,10 +41,12 @@
       "statusBarItem.remoteBackground": "#00BCD4",
       "titleBar.activeBackground": "#0f0f0f",
       "titleBar.inactiveBackground": "#1a1a1a",
-      "titleBar.activeForeground":"#ffffff",
+      "titleBar.activeForeground": "#ffffff",
       "banner.background": "#ff0000",
       "editorGroupHeader.tabsBackground": "#1a1a1a",
-      "breadcrumb.background": "#1a1a1a"
+      "breadcrumb.background": "#1a1a1a",
+      "panel.background": "#1a1a1a",
+      "quickInput.background": "#1a1a1a"
     }
   },
   "window.titleBarStyle": "custom",
@@ -53,5 +56,13 @@
   "explorer.confirmDelete": false,
   "material-icon-theme.showWelcomeMessage": false,
   "svelte.ask-to-enable-ts-plugin": false,
-  "editor.minimap.enabled": false
+  "editor.minimap.enabled": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "workbench.startupEditor": "none"
 }
